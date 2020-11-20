@@ -15,15 +15,6 @@ batch:
   - tag: package-2020-07
 ```
 
-
-### Tag: package-2020-07
-
-These settings apply only when `--tag=package-2020-07` is specified on the command line.
-
-```yaml $(tag) == 'package-2020-07'
-input-file:
-  - Microsoft.OffAzure/stable/2020-07-07/migrate.json
-```
 ### Tag: package-2018-02 and java
 
 These settings apply only when `--tag=package-2018-02 --java` is specified on the command line.
@@ -105,6 +96,15 @@ These settings apply only when `--tag=package-2020-01` is specified on the comma
 ``` yaml $(tag) == 'package-2020-01'
 input-file:
 - Microsoft.OffAzure/stable/2020-01-01/migrate.json
+```
+
+### Tag: package-2020-07
+
+These settings apply only when `--tag=package-2020-07` is specified on the command line.
+
+```yaml $(tag) == 'package-2020-07'
+input-file:
+  - Microsoft.OffAzure/stable/2020-07-07/migrate.json
 ```
 
 ## Suppression
