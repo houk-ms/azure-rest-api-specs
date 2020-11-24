@@ -8,6 +8,6 @@ az:
   namespace: azure.mgmt.migrateprojects
   package-name: azure-mgmt-migrateprojects
 az-output-folder: $(azure-cli-extension-folder)/src/migrateprojects
-python-sdk-output-folder: "$(output-folder)/src/migrateprojects/azext_migrateprojects/vendored_sdks/migrateprojects"
+python-sdk-output-folder: "$(az-output-folder)/azext_migrateprojects/vendored_sdks/migrateprojects"
 sdk-no-flatten: true
 ```
