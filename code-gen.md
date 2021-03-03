@@ -264,3 +264,5 @@ Can we (how to) configure
 ### 5.4.4 Parameter
 ### 5.4.5 Help message
 ### 5.4.6 Test
+
+## 5.6 Generated/Manually codes' consistency and maintenance
